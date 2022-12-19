@@ -1,0 +1,153 @@
+body {
+  position: relative;
+  width: 1280px;
+  height: 832px;
+
+  background: #a4b6ef;
+}
+
+.ganyu {
+  position: absolute;
+  width: 405.5px;
+  height: 442px;
+  left: 0px;
+  top: 370px;
+}
+
+.container {
+  position: absolute;
+  width: 777px;
+  height: auto;
+  left: 450px;
+  top: 91px;
+  background-color: #ffff;
+  border-radius: 50px;
+}
+
+@font-face {
+  font-family: potta_one;
+  src: url(PottaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: reggae_one;
+  src: url(ReggaeOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: gensin;
+  src: url(zh-cn-webfont.woff);
+}
+
+@font-face {
+  font-family: gensin2;
+  src: url(zh-cn-webfont.woff2);
+}
+
+.header {
+  font-family: "gensin2";
+  color: rgb(107, 107, 107);
+  margin-top: 50px;
+  height: 50px;
+  size: auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+hr {
+  color: rgb(107, 107, 107);
+}
+
+.form,
+.option {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 777px;
+  size: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.uid,
+.password,
+.email {
+  width: 200px;
+  height: 35px;
+  font-family: "reggae_one";
+  color: #5cb6ff;
+  position: relative;
+  text-align: center;
+}
+
+.uid-text,
+.pass-text,
+.email-text {
+  width: 200px;
+  height: 35px;
+  color: #5cb6ff;
+  border-width: 1px;
+  border-radius: 50px;
+  text-align: center;
+  border-color: rgb(107, 107, 107);
+}
+
+.server {
+  width: 500px;
+  height: 35px;
+  font-family: "reggae_one";
+  color: #5cb6ff;
+  text-align: center;
+  border-radius: 50px;
+  border-color: rgb(107, 107, 107);
+}
+
+.farming,
+.quest {
+  width: 300px;
+  height: 35px;
+  font-family: "reggae_one";
+  color: #ff5c5c;
+  text-align: center;
+  border-radius: 50px;
+  border-color: rgb(107, 107, 107);
+}
+
+.maintain {
+  width: 400px;
+  height: 35px;
+  font-family: "reggae_one";
+  color: #ff5c5c;
+  text-align: center;
+  border-radius: 50px;
+  border-color: rgb(107, 107, 107);
+}
+
+.note-text {
+  width: 400px;
+  border-width: 1px;
+  border-style: dashed;
+  border-radius: 10px;
+}
+
+.note {
+  width: 400px;
+  font-family: "reggae_one";
+  color: #ff5c5c;
+  position: relative;
+  text-align: center;
+}
+
+.submit {
+  font-family: "gensin2";
+  color: rgb(107, 107, 107);
+  height: 40px;
+  width: 100px;
+  size: auto;
+  font-size: 20px;
+  align-items: center;
+  border-radius: 50px;
+  border-width: 1px;
+}
