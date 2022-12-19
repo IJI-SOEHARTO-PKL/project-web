@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "genshin";
+}
+
+@font-face {
+  font-family: "genshin";
+  src: url(../fonts/hywenhei85w/zh-cn-webfont.woff);
+}
+
+nav {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #eb6230;
+}
+
+.chs {
+  color: rgba(255, 255, 255, 0.608);
+}
+
+main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.kiri {
+  width: 50%;
+  text-align: center;
+  display: block;
+}
+
+h3{
+  font-family: "gensin2";
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "gensin";
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.gambar {
+  position: absolute;
+  top: 100px;
+  left: 800px;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.teks {
+  height: 270px;
+  padding-top: 6px;
+}
+
+.tombol {
+  margin-top: 20px;
+}
+
+.go {
+  border: none;
+  padding: 9px;
+  border-radius: 10px;
+  background-color: #eb6230;
+  color: white;
+  transition: 0.2s;
+}
+
+.go:hover {
+  transform: scale(1.05);
+}
+
+.pict {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.tengah {
+  text-align: center;
+}
+
+.jrk {
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  .kiri {
+    width: 100%;
+  }
+  .pict {
+    width: 100%;
+  }
+}
+
+.jarak {
+  
+  height: 200px;
+  width: 450px;
+  margin-left: 150px;
+}
+
+.jarak {
+  margin-top: 300px;
+}
