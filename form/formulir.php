@@ -1,11 +1,11 @@
 <?php
 include "mysql.php";
-$uid = $_POST['uid'];
-$email = $_POST['email'];
-$password = $_POST['password'];
-$server = $_POST['server_select'];
-$farming = $_POST['farming_select'];
 if(isset($_POST["submit"])) {
+  $uid = $_POST['uid'];
+  $email = $_POST['email'];
+  $password = $_POST['password'];
+  $server = $_POST['server_select'];
+  $farming = $_POST['farming_select'];
   if($server == 1) {
     $servera = "Amerika";
     $result = mysqli_query($koneksi, "INSERT INTO user VALUES('$uid', '$email', '$password', '$servera')");
